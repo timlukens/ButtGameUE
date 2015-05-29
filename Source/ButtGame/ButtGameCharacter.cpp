@@ -61,7 +61,7 @@ void AButtGameCharacter::PostInitializeComponents() {
 //////////////////////////////////////////////////////////////////////////
 // Input
 
-void AButtGameCharacter::SetupPlayerInputComponent(class UInputComponent* InputComponent)
+void AButtGameCharacter::SetupPlayer InputComponent(class UInputComponent* InputComponent)
 {
 	// Set up gameplay key bindings
 	check(InputComponent);
